@@ -1,0 +1,95 @@
+# --- SYSTEM & OS ---
+.DS_Store
+.DS_Store?
+._*
+Thumbs.db
+desktop.ini
+
+# --- IDE & EDITORS ---
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+
+# --- PYTHON CORE ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+.eggs/
+eggs/
+develop-eggs/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+.pyre/
+.ruff_cache/
+
+# --- ENVIRONMENTS & VENV ---
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.python-version
+pip-log.txt
+
+# --- POETRY & DEPENDENCIES ---
+# (Poetry lockfile лучше держать в git, но папки виртуалок игнорим)
+.venv/
+bin/
+lib/
+lib64/
+include/
+
+# --- BUILD & DIST ---
+build/
+dist/
+out/
+target/
+*.manifest
+*.spec
+
+# --- DATA, JUPYTER & MEDIA ---
+.ipynb_checkpoints
+profile_default/
+ipython_config.py
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.csv
+*.jsonl
+*.sqlite3
+*.sqlite3-journal
+
+# --- DOCKER & INFRA ---
+.docker/
+*.pid
+celerybeat-schedule
